@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AURA Photography - User Account</title>
+    <title>User Account</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -10,26 +10,8 @@
     <link rel="stylesheet" href="User.css">
 </head>
 <body>
-    <center>
-        <!-- Logo and title -->
-        <div class="aura">AURA</div>
-        <div class="photography">Photography</div>
-    </center>
     
-    <!-- Navigation bar -->
-    <ul>
-        <li><img src="./images - U_A/PicsArt_05-26-03.27.28.jpg" width="110px" class="logo"></li>
-        <li><img src="./images - U_A/1727578.webp" width="50px" class="userimage"></li>
-        <li><font class="username">Hello!</font><br><font class="username">Username</font></li>
-        <li><a class="active_Home" href="home_page.html">Home</a></li>
-        <li><a href="#album">Album</a></li>
-        <li><a href="#aboutus">About us</a></li>
-        <li><a href="#contactus">Contact us</a></li>
-        <li><a href="#reservation">Reservation</a></li>
-        <li><a href="#help">Help</a></li>
-    </ul>
-    <br><br><br>
-    
+    <br><br><br><br><br><br><br>
     <!-- User registration form -->
     <div class="boxs">
         <div>
@@ -76,31 +58,5 @@
 
     <br><br><br>
 
-    <!-- Footer section -->
-    <footer>
-        <!-- Social media icons -->
-        <div class="button-row">
-            <div class="social-media">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-google"></i></a>
-            </div>
-            <!-- Newsletter subscription form -->
-            <div class="newsletter">
-                <form class="subscriber-form">
-                    <input type="email" name="email" placeholder="Enter Your Email">
-                    <button type="submit">Subscribe to Email</button>
-                </form>
-            </div>
-        </div>
-        <!-- Footer links -->
-        <div class="links-row">
-            <a href="#">Contact Us</a>
-            <a href="#">Terms &amp; Condition</a>
-            <a href="#">Privacy</a>
-            <a href="#">FAQ</a>
-        </div>
-    </footer>
 </body>
 </html>
